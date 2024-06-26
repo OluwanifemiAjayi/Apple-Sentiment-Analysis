@@ -1,10 +1,12 @@
 # Analysis of Apple Users' Reviews and Sentiments
 ## A Project involving the Analysis of Sentiments with the aid of Python and PowerBI 
 
-# Introduction
-This project aims to perform sentiment analysis on customer reviews from Trustpilot for Apple's website. Sentiment analysis helps to understand the overall sentiment expressed in the reviews, whether it is positive, negative, or neutral. I performed a sentiment analysis on reviews from Apple users to understand their feelings about Apple’s products and services using Natural Language Processing (NLP) techniques. Trustpilot, a website where users leave reviews and feedback about various brands and products, was the source of these reviews. I collected the reviews by scraping pages from Trustpilot specifically for Apple. To achieve this, I used several Python libraries: Pandas for data cleaning and manipulation, BeautifulSoup for web scraping, Natural Language Toolkit (NLTK) and TextBlob for sentiment analysis, Matplotlib and WordCloud for data exploration and visualization. Using these tools, I was able to analyze the sentiments expressed in the reviews and gain insights into how users feel about Apple’s offerings.
+## Introduction
+This project aims to perform sentiment analysis on customer reviews from Trustpilot for Apple's website. Sentiment analysis helps to understand the overall sentiment expressed in the reviews, whether it is positive, negative, or neutral. I performed a sentiment analysis on reviews from Apple users to understand their feelings about Apple’s products and services using Natural Language Processing (NLP) techniques. Trustpilot, a website where users leave reviews and feedback about various brands and products, was the source of these reviews. I collected the reviews by scraping pages from Trustpilot specifically for Apple. 
+
+To achieve this, I used several Python libraries: Pandas for data cleaning and manipulation, BeautifulSoup for web scraping, Natural Language Toolkit (NLTK) and TextBlob for sentiment analysis, Matplotlib and WordCloud for data exploration and visualization. Using these tools, I was able to analyze the sentiments expressed in the reviews and gain insights into how users feel about Apple’s offerings.
 As shown in this [Jupyter Notebook](http://localhost:8888/notebooks/Sentiment%20Analysis%20project.ipynb), you will observe how I conducted this project following the steps outlined below:
- 1. Import Libraries
+ 1. Introduction
 
  2. Web Scraping and Data Gathering
 
@@ -18,40 +20,40 @@ As shown in this [Jupyter Notebook](http://localhost:8888/notebooks/Sentiment%20
 
 7. Conclusion
 
-# Web Scraping and Data Gathering
-The first major step is to gather customer reviews from Trustpilot for Apple's website. I defined the range of pages to scrape and used the BeautifulSoup library coupled with some functions I defined, to extract relevant information, such as review content, total reviews, user names, ratings, locations, and dates from the HTML structure of the webpage. I split the web scraping process into two batches of 100 pages each to speed up the whole process of scraping. The extracted data is stored in lists and then converted into a Pandas DataFrame for further processing.
+## Web Scraping and Data Gathering
+The first major step was to import all the necessary libraries for this sentiment analysis into my Jupyter notebook after which I proceeded to gather customer reviews from Trustpilot for Apple's website. I defined the range of pages to scrape and used the BeautifulSoup library coupled with some functions I defined, to extract relevant information, such as review content, total reviews, user names, ratings, locations, and dates from the HTML structure of the webpage. I split the web scraping process into two batches of 100 pages each to speed up the whole process of scraping. The extracted data is stored in lists and then converted into a Pandas DataFrame for further processing.
 
-# Data Evaluation and Data Cleaning
+## Data Evaluation and Data Cleaning
 After gathering the data, I assessed it to identify and handle missing values, duplicates, and inconsistent formatting. This step involved:
 - **Removing duplicates:** Identifying and removing duplicate reviews based on the "Username" and "Review_content" columns.
 - **Standardizing location names:** Using the country_converter library to convert abbreviated location names to standardized country codes.
 - **Cleaning numeric values:** Converting the total number of reviews to integer format by removing non-digit characters.
 - **Formatting dates:** Standardizing the date format and handling relative dates (e.g., "3 days ago") by converting them to absolute dates.
 
-# Data Preprocessing 
+## Data Preprocessing 
 Next, I preprocessed the "Review_content" column to prepare it for sentiment analysis. I created several functions to clean up the column, these functions removed unnecessary stopwords from each review, leaving only the important words and adjectives free from repeating characters, stop words and punctuations. Then I lemmatized the remaining words for further analysis. This stage required:
 - **Lowercasing:** Converting all text to lowercase to ensure uniformity.
 - **Tokenization:** Splitting the text into individual words.
 - **Removing stopwords and non-alphabetic tokens:** Filtering out common stopwords and non-alphabetic characters to focus on meaningful words.
 - **Lemmatization:** Reducing words to their base or root form
 
-# Sentiment Analysis
+## Sentiment Analysis
 I performed sentiment analysis using the TextBlob library,creating functions to calculate the subjectivity and polarity of the column "Review_content which provides polarity and subjectivity scores for each review after applying these functions to the column. Polarity indicates the sentiment of the text (negative, neutral, or positive), while subjectivity measures the degree of personal opinion expressed in the text, a polarity score of < 0 is Negative, 0 is Neutral while > 0 is Positive.. I also extracted adjectives from the reviews as they often carry significant sentiment information.
 
-# Data Exploration and Visualization
+## Data Exploration and Visualization
 To visualize the results of our sentiment analysis, I created several plots:
 
-## Sentiment Distribution
+### Sentiment Distribution
 I exported the value counts of the sentiment labels to a new DataFrame and then I used MatPlotLib to create a bar chart showing the distribution of positive, negative, and neutral reviews. This distribution is displayed below
 
-## Word Cloud Visualization
+### Word Cloud Visualization
 A word cloud of the most common adjectives used in the reviews to highlight frequently mentioned descriptors. To find the most common adjectives used to describe Apple"s services, I used the POS-tag (Parts of Speech tagging) module from the NLTK library. With the WordCloud library, I generated a word cloud based on word frequency, displaying the words over an image. I displayed the word cloud with Matplotlib, in this cloud, words with higher frequencies appear in larger text, while less common words are shown in smaller text.
 
-## Word Frequency Analysis
+### Word Frequency Analysis
 I created a bar chart to visualize the top 20 most common adjectives to provide insights into the most frequently used descriptive words, this way I was able to obtain a clear visual representation of the most frequently used adjectives in the reviews, which helps in understanding common sentiments expressed by the reviewers.
 
-# Conclusion
-## Remarks
+## Conclusion
+### Remarks
 
 - **Total Reviews and Average Rating:**
 The dashboard shows a total of 4,000 reviews with an average rating of 1.73, which goes to say that the sentiment among the reviewers is generally poor.
@@ -74,7 +76,7 @@ The graph of the number of reviews clearly indicates a fluctuation over the year
 - **Reviews by Ratings:**
 Most of the other reviews are rated 1, indicating bad service. Very few are rated 2, 3, and 4, while at the extreme end, there is another peak for the rating level 5. It turns out to be a bimodal distribution, evidencing that the customers enjoy either very poor or very good experiences .
 
-## Recommendations for Apple
+### Recommendations for Apple
 
 - **Product Quality Improvement/Service:**
 It is thus crucial that Apple investigates the common issues laid out by a huge number of negative reviewers and the low average rating. Concerting the defects of the products can bring improvement in the product defectiveness, improvement in the response time to customer service, and consistent performance of the same product.
