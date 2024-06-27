@@ -53,6 +53,8 @@ I exported the value counts of the sentiment labels to a new DataFrame and then 
 ### Word Cloud Visualization
 A word cloud of the most common adjectives used in the reviews to highlight frequently mentioned descriptors. To find the most common adjectives used to describe Apple"s services, I used the POS-tag (Parts of Speech tagging) module from the NLTK library. With the WordCloud library, I generated a word cloud based on word frequency, displaying the words over an image. I displayed the word cloud with Matplotlib, in this cloud, words with higher frequencies appear in larger text, while less common words are shown in smaller text.
 
+![Wordcloud](https://github.com/OluwanifemiAjayi/Apple-Sentiment-Analysis/blob/main/review_wordcloud.png?raw=true)
+
 ### Word Frequency Analysis
 I created a bar chart to visualize the top 20 most common adjectives to provide insights into the most frequently used descriptive words, this way I was able to obtain a clear visual representation of the most frequently used adjectives in the reviews, which helps in understanding common sentiments expressed by the reviewers.
 
