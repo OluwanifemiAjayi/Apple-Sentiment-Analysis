@@ -58,6 +58,7 @@ A word cloud of the most common adjectives used in the reviews to highlight freq
 ### Word Frequency Analysis
 I created a bar chart to visualize the top 20 most common adjectives to provide insights into the most frequently used descriptive words, this way I was able to obtain a clear visual representation of the most frequently used adjectives in the reviews, which helps in understanding common sentiments expressed by the reviewers.
 
+![Word Frequency visual](https://github.com/OluwanifemiAjayi/Apple-Sentiment-Analysis/blob/main/word_frequency_chart.png?raw=true)
 ## Conclusion
 ### Remarks
 
