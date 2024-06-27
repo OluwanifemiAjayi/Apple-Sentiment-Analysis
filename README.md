@@ -4,6 +4,8 @@
 ## Introduction
 This project aims to perform sentiment analysis on customer reviews from Trustpilot for Apple's website. Sentiment analysis helps to understand the overall sentiment expressed in the reviews, whether it is positive, negative, or neutral. I performed a sentiment analysis on reviews from Apple users to understand their feelings about Apple’s products and services using Natural Language Processing (NLP) techniques. Trustpilot, a website where users leave reviews and feedback about various brands and products, was the source of these reviews. I collected the reviews by scraping pages from Trustpilot specifically for Apple. 
 
+![Trustpilot Homepage](https://github.com/OluwanifemiAjayi/Apple-Sentiment-Analysis/blob/main/Trustpilot.png?raw=true)
+                     
 To achieve this, I used several Python libraries: Pandas for data cleaning and manipulation, BeautifulSoup for web scraping, Natural Language Toolkit (NLTK) and TextBlob for sentiment analysis, Matplotlib and WordCloud for data exploration and visualization. Using these tools, I was able to analyze the sentiments expressed in the reviews and gain insights into how users feel about Apple’s offerings.
 As shown in this [Jupyter Notebook](http://localhost:8888/notebooks/Sentiment%20Analysis%20project.ipynb), you will observe how I conducted this project following the steps outlined below:
  1. Introduction
