@@ -108,8 +108,10 @@ Regular tracking of sentiment trends and prompt action over emerging issues woul
 
 Implementing the above recommendations will help Apple elevate customer satisfaction levels and improve the quality of the products and services offered. As a result, Apple will slowly build a more loyal customer base than it has today. This process can also be replicated for any other company or product with reviews posted by customers leading to actionable insights.
 
-
-
+## Relevant Links
+- [Reviews Sentiment Analysis Dashboard](https://github.com/OluwanifemiAjayi/Apple-Sentiment-Analysis/blob/main/Reviews_dashboard.jpg?raw=true)
+- [Jupyter Notebook](http://localhost:8888/notebooks/Sentiment%20Analysis%20project.ipynb)
+- [LinkedIn](https://www.linkedin.com/in/oluwanifemiii)
 
 
 
