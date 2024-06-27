@@ -48,6 +48,8 @@ To visualize the results of our sentiment analysis, I created several plots:
 ### Sentiment Distribution
 I exported the value counts of the sentiment labels to a new DataFrame and then I used MatPlotLib to create a bar chart showing the distribution of positive, negative, and neutral reviews. This distribution is displayed below
 
+![Distribution of Sentiments](https://github.com/OluwanifemiAjayi/Apple-Sentiment-Analysis/blob/main/sentiments_barchart.png?raw=true)
+
 ### Word Cloud Visualization
 A word cloud of the most common adjectives used in the reviews to highlight frequently mentioned descriptors. To find the most common adjectives used to describe Apple"s services, I used the POS-tag (Parts of Speech tagging) module from the NLTK library. With the WordCloud library, I generated a word cloud based on word frequency, displaying the words over an image. I displayed the word cloud with Matplotlib, in this cloud, words with higher frequencies appear in larger text, while less common words are shown in smaller text.
 
