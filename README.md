@@ -111,6 +111,7 @@ Implementing the above recommendations will help Apple elevate customer satisfac
 ## Relevant Links
 - [Reviews Sentiment Analysis Dashboard](https://github.com/OluwanifemiAjayi/Apple-Sentiment-Analysis/blob/main/Reviews_dashboard.jpg?raw=true)
 - [Jupyter Notebook](http://localhost:8888/notebooks/Sentiment%20Analysis%20project.ipynb)
+- [Reviews Dataset](https://github.com/OluwanifemiAjayi/Apple-Sentiment-Analysis/blob/main/Reviews_dataset.xlsx)
 - [LinkedIn](https://www.linkedin.com/in/oluwanifemiii)
 
 
