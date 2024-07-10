@@ -7,7 +7,7 @@ This project aims to perform sentiment analysis on customer reviews from Trustpi
 ![Trustpilot Homepage](https://github.com/OluwanifemiAjayi/Apple-Sentiment-Analysis/blob/main/Trustpilot.png?raw=true)
                      
 To achieve this, I used several Python libraries: Pandas for data cleaning and manipulation, BeautifulSoup for web scraping, Natural Language Toolkit (NLTK) and TextBlob for sentiment analysis, Matplotlib and WordCloud for data exploration and visualization. Using these tools, I was able to analyze the sentiments expressed in the reviews and gain insights into how users feel about Apple’s offerings.
-As shown in this [Jupyter Notebook](http://localhost:8888/notebooks/Sentiment%20Analysis%20project.ipynb), you will observe how I conducted this project following the steps outlined below:
+As shown in this [Jupyter Notebook](https://github.com/OluwanifemiAjayi/Apple-Sentiment-Analysis/blob/main/Sentiment_Analysis_project.ipynb), you will observe how I conducted this project following the steps outlined below:
  1. Introduction
 
  2. Web Scraping and Data Gathering
@@ -110,7 +110,7 @@ Implementing the above recommendations will help Apple elevate customer satisfac
 
 ## Relevant Links
 - [Reviews Sentiment Analysis Dashboard](https://github.com/OluwanifemiAjayi/Apple-Sentiment-Analysis/blob/main/Reviews_dashboard.jpg?raw=true)
-- [Jupyter Notebook](http://localhost:8888/notebooks/Sentiment%20Analysis%20project.ipynb)
+- [Jupyter Notebook](https://github.com/OluwanifemiAjayi/Apple-Sentiment-Analysis/blob/main/Sentiment_Analysis_project.ipynb)
 - [Reviews Dataset](https://github.com/OluwanifemiAjayi/Apple-Sentiment-Analysis/blob/main/Reviews_dataset.xlsx)
 - [LinkedIn](https://www.linkedin.com/in/oluwanifemiii)
 
